@@ -1,0 +1,144 @@
+@import url("rest.css");
+
+body{
+  font-family: arial, sans-serif;
+}
+
+#container{
+  margin:0 auto;
+  width:1000px;
+  border:black 2px solid;
+  overflow:hidden;
+}
+
+#fixed_item{
+  position: fixed;
+  bottom:50px;
+  left:50px;
+  border-radius:10px;
+  background:#2b76ef;
+  color:#ffffff;
+  widht:200px;
+  height:40px;
+  padding:20px 50px 0 50px;
+  font-size: 18px;
+}
+
+h2{
+  color:#ce2121;
+}
+
+p{
+  padding-bottom:20px;
+  line-height: 2;
+  color:#515151;
+  clear:both;
+}
+
+p:last-of-type{
+  padding:0px;
+  margin:0px;
+}
+
+.example.text{
+  font-weight: 600;
+  padding-bottom:20px;
+  color:#515151;
+}
+
+.example.area{
+  border:black 2px dashed;
+  margin: 40px 300px 50px 30px;
+  padding:10px 0 10px 0;
+  overflow:hidden;
+}
+
+.section{
+  padding:20px 20px 0 20px;
+}
+
+.section.inline_element li{
+  display:inline;
+}
+
+.example.area #example2 li{
+  margin:30px;
+}
+
+.example.area #example3 li{
+  background:#327a0c;
+  color:#ffffff;
+  padding:30px;
+}
+
+.example.area #example4 li{
+  float:left;
+  background:#327a0c;
+  color:#ffffff;
+  padding:30px;
+  border:2px solid #276307;
+  margin:20px 20px 30px 10px;
+  text-align:center;
+  width:60px;
+}
+
+.section.block_element div:first-of-type{
+  background:#108db7;
+  color:#ffffff;
+}
+
+.section.block_element div:nth-of-type(2){
+  background:#327a0c;
+  color:#ffffff;
+  height:25px;
+  margin:20px;
+  padding:20px;
+  vertical-align: middle;
+}
+
+.section.block_element div:nth-of-type(3){
+  background:#ffb01e;
+  color:#ffffff;
+  width:90px;
+  vertical-align: middle;
+  margin:30px;
+}
+
+.section.block_element div:nth-of-type(4){
+  background:#108db7;
+  color:#ffffff;
+  float:left;
+}
+
+.section.block_element div:nth-of-type(5){
+  background:#ffb01e;
+  color:#ffffff;
+  float:right;
+  margin-bottom: 30px;
+}
+
+.section.block_element div:nth-of-type(6){
+  background:#108db7;
+  color:#ffffff;
+  width:350px;
+  height:10px;
+  float:left;
+  padding:40px 40px 50px 40px;
+  text-align: center;
+  margin: 20px 40px 30px 0;
+  box-sizing: border-box;
+}
+
+.section.block_element div:nth-of-type(7){
+  background:#d80f48;
+  color:#ffffff;
+  width:500px;
+  height:10px;
+  float:right;
+  padding:40px 40px 50px 40px;
+  text-align: center;
+  margin: 20px 10px 30px 0;
+  box-sizing: border-box;
+}
+
+
