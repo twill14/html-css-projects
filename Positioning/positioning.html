@@ -63,8 +63,85 @@
       <p class="example text">Floating block elements with width and height set.</p>
       <div>Box - 1 Floated Left</div>
       <div>Box - 2 Floated Right</div>
+      <p class="example text">Can we change an inline element into a block element?</p>
+      <p>Lets use the anchor tag as an example</p>
+      <nav id="block_nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </nav>
+      <p>Yes, we can change display values from a block element to inline element and vice versa. Display values can be overwritten by another display value.</p>
+    </section>
+    <section class="section inline_block_element">
+      <h2>Inline-Block Elements</h2>
+      <p>Inline block elements are inline elements that can take block element properties, such as width and height. It acts similarly to a float minus the clear property.</p>
+      <p class="example text">Example: Let's use inline-block to create a navigation.</p>
+        <nav id="block_nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </nav>
+      <p>We achieved the same results as to when we float the anchor elements to give them the block element's properties. It's you get two elements in just one, you get to have the properties of inline elements and at the same time get the properties of block elements.</p>
+    </section>
+      <div id="divider_dotted"></div>
+    <section class="section float">
+      <h2 id="centered">Floats and Positioned Elements</h2>
+       <h2>Floats</h2>
+       <p>A floated element is taken out of the normal flow then shifted left or right. When you float a content it becomes a block-level element.</p>
+       <p class="example text">Example:</p>
+       <div id="top">Box 1</div>
+       <div id="top">Box 2</div>
+       <div id="bottom">Box 3</div>
+       <p>Elements following a floated element will wrap around the floated element, we do not want this to happen, so i applied the 'clear:both' property to the third div, there are 2 other properties for clear, that's the left and the right. I chose to clear both, just to be sure.</p>
+       <p>There are other methods to clear floats, one of these methods is the clearfix method:</p>
+       <blockquote>
+         <pre>
+             <code>
+                    elementName::after {
+                    content: " ";
+                    display:block;
+                    clear: both;
+                }
+              </code>
+          </pre>
+      </blockquote> 
+        <p>Basically, your just put the ::after psuedo-element on the containing parent element of the floated contents.</p>
+    </section>
+    <section class="section positioning">
+      <h2>Positioning</h2>
+       <p>Every now and then we want to position things the way we want it to be and move it around the page, and floats simply cannot do this as it can only take an element to position left or right. This is where posisitioning comes in. There are four types of positioning.</p>
+       <ul>
+         <li>Static</li>
+         <li>Fixed</li>
+         <li>Relative</li>
+         <li>Abosolute</li>
+       </ul>
+        <h2>Static Position</h2>
+        <p>The element renders normally on the page - this is the default position of elements on the page.</p>
+        <h2>Fixed Position</h2>
+        <p>This will allow you to put an element in the same place even when the page is scrolled. Top, Right, Bottom and Left properties are used to position this property</p>
+        <p>Fixed posistioned elements are taken out of the flow and does not leave a gap in the location of the page where you originally put it.</p>
+        <p>Notice the blue box on the bottom left side of the page. It is a fixed position element.</p>
+        <h2>Position Relative</h2>
+        <p>Positioned realtive to its normal position. Setting the offset values will cause the element to move away from its normal position according to the values you've set. However, it's position in the normal flow of the document will be preserved and following texts will not wrap around it.</p>
+        <p>When we position an element with offset values it moves on top of the next text/elements rather than pushing it down as to what padding and margin element would do.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum?</p>
+        <h2>Position Absolute</h2>
+        <div id="absolute_item">I'm absolutely posistioned!</div>
+        <p>When the element is positioned absolute it is taken out of the normal flow and the original space of the element in the document will not be preserved.</p>
+        <p>Absolutely positioned element are moved in relation to their closest relatively positioned parent element. Should a relatively positioned parent element not exist, the absolutely positioned element will be positioned in relation to the "<body>" element.</p>
+        <p>Let's get some examples:</p>
+        <p>I will set the position of the section with the class of "pos-absolute" to position: relative so that the absolutely positioned element will be basing its offset values on the whole section element</p>
+        <p>Notice the green box beside the Position Absolute title, it is an absolutely positioned element.</p>
     </section>
   </main>
+  <div id="relative_item">I'm a relatively positioned box!</div>
   <div id="fixed_item">I'm position fixed</div>
 </body>
 </html>
