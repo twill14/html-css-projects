@@ -1,0 +1,116 @@
+@import url("rest.css");
+
+body{
+   background: linear-gradient(#d2dbbd, #f8fcf0);
+  font-family: 'Roboto Condensed', arial, sans-serif;
+}
+
+header{
+  margin:0 auto;
+  width:960px;
+  height:auto;
+  z-index: 0;
+}
+
+main{
+  margin:0 auto;
+  background:#ffffff;
+  width:960px;
+  height:1200px;
+  overflow:hidden;
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.top{
+  margin:0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.top.left{
+  padding: 20px;
+  width:40%;
+}
+
+.top.left img{
+  float: left;
+}
+.top.left p{
+  float: left;
+  position: relative;
+  top:40px;
+  left:15px;
+  font-size: 36px;
+  font-weight: 200;
+  margin:0;
+  color:#193441;
+}
+
+.top.right{width:60%;}
+
+nav{
+  float:right;
+  position: relative;
+  top:75px;
+  right:15px;
+  box-sizing: border-box;
+   z-index: -1;
+}
+
+
+nav li:first-of-type{
+  background:#91aa9d;
+  color:white;
+}
+
+nav li{
+  font-size: 18px;
+  display:inline-block;
+  text-align: center;
+  border-radius: 10px;
+  width:130px;
+  height:60px;
+  padding:20px;
+  box-sizing: border-box;
+  z-index: 0;
+  color:#cad7cc;
+  background: #fcfff5;
+}
+
+.picture_large{
+  margin:0;
+  width:100%;
+  padding:30px 30px 0 30px;
+  box-sizing: border-box;
+}
+
+.content{
+  padding: 0 30px 0 30px;
+  margin: 0;
+}
+
+.small_pic{
+  margin:0;
+  padding:0 0 0 30px;
+  float:right;
+}
+
+.content h2{
+  color:#3e606f;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+.content p{
+  font-size: 18px;
+  color:#3e606f;
+  line-height: 1.5;
+}
+
+footer{
+  width:960px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 14px;
+}
