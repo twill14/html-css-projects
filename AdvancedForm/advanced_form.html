@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advanced Form</title>
+  <link rel="stylesheet" type="text/css" href="advanced_form.css">
+</head>
+<body>
+  <main>
+    <h2>Create Your Profile</h2>
+    <form action="#" method="post">
+      <fieldset>
+          <h3>Personal Info</h3>
+          <dl>
+            <dt>Your Name</dt>
+            <dd>
+              <input type="text" name="firstname" placeholder="First" id="name">
+              <!-- -->
+              <input type="text" name="lastname" placeholder="Last" id="name">
+            </dd>
+           <dt>Email</dt>
+            <dd><input type="email" name="email" id="email"></dd>
+          </dl>
+      </fieldset>
+       
+      <fieldset class="social">
+        <h3>Social Media Accounts</h3>
+          <dl class="third">
+            <dt>Facebook</dt>
+            <dd >
+              <input type="text" name="facebook">
+            </dd>
+          </dl>
+          <dl class="third">
+             <dt>Twitter</dt>
+            <dd>
+            <input type="text" name="twitter">
+            </dd>
+          </dl>
+          <dl>
+            <dt>LinkedIn</dt>
+            <dd><input type="text" name="linkedin"></dd> 
+          </dl>
+      </fieldset>
+      <fieldset class="account">
+         <h3>Account Info</h3>
+         <dl>
+            <dt>Profile Name</dt>
+            <dd><input type="text" name="profile"></dd> 
+          </dl>
+          <dl class="half">
+            <dt>Password</dt>
+            <dd >
+              <input type="password" name="password">
+            </dd>
+          </dl>
+          <dl class="half">
+             <dt>Confirm Password</dt>
+            <dd>
+            <input type="password" name="confirm_password">
+            </dd>
+          </dl>
+      </fieldset>
+      <fieldset>
+         <h3>Bio</h3>
+         <dl>
+            <dd><textarea></textarea></dd> 
+          </dl>
+      </fieldset>
+      <fieldset>
+      <div >
+        <input type="checkbox" name="checkbox">
+        <p class="check" >I agree to treat other users with respect, and will not say anything at all if I have nothing nice to say. </p>
+      </div>
+        <button>Create Account</button>
+      </fieldset>
+    </form>
+    
+  </main>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@import url('rest.css');
+
+body{
+  background: #ffffff;
+  font-family: arial, sans-serif;
+}
+
+form{
+  margin:0 auto;
+  padding:1.5rem;
+  max-width: 620px;
+}
+
+fieldset{
+  background:#e7e7e7;
+  border-left: 3px gray solid;
+  padding:5px 30px 20px 30px;
+  width:100%;
+  margin:1px 0 2px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h2{
+  font-weight: 200;
+  margin: 0 auto;
+  width:620px;
+}
+
+h3{
+  margin:10px 0 0px 0;
+}
+
+dl{
+  box-sizing: border-box;
+}
+
+dt{
+  font-size: 17px;
+  font-weight: 600;
+  color:#5a5b5b;
+  padding-bottom: 5px;  
+}
+
+dd{
+  margin:0 0 20px 0;
+  float:left;
+  width:100%;
+  box-sizing: border-box;
+}
+
+#name{
+  float:left;
+  width:48.9%;
+  box-sizing: border-box;
+}
+
+#name:first-of-type{
+  margin-right: 2%;
+}
+
+.social dl{
+  float:left;
+  width:31.9%;
+}
+
+.third{
+  margin-right:2%;
+}
+
+.account .half{
+  float:left;
+  width:48.9%;
+  box-sizing: border-box;
+}
+
+.account .half:nth-of-type(2){
+  margin-right:2%;
+}
+
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+   box-sizing: border-box;
+  width:100%;
+  border:#80a3fc 1px solid;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+textarea{
+  box-sizing: border-box;
+  font-size: 12px;
+  border:#80a3fc 1px solid;
+  border-radius: 5px;
+  width: 100%;
+  height: 105px;
+}
+
+input[type="checkbox"]{
+  float:left;
+  margin-right:5px;
+}
+
+.check{
+  font-size:14px;
+  color:#606163;
+}
+
+button{
+  border-radius: 5px;
+  background:#1551ea;
+  font-size:14px;
+  color:white;
+  width:150px;
+  height:50px;
+}
+
+button:hover{
+  background: #567ee2;
+}
+
+
