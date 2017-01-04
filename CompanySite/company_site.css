@@ -1,0 +1,475 @@
+@import url("rest.css");
+
+body{
+  margin: 0;
+  font: normal 20px "Avenir", Helvetica, Arial, sans-serif;
+  background: #2f2840  url("bg_body.gif") 50% 0 repeat;
+}
+
+header{
+  background-image: url("bg_body.gif");
+  height:500px;
+  margin:0 auto;
+  max-width:1000px;
+}
+
+h1 a {
+    display: block;
+    width: 298px;
+    height: 243px;
+    margin: 0 auto 50px auto;
+    text-indent: -9000px;
+    background: transparent url("logo.png") 0 0 no-repeat;
+}
+
+ main{
+  display:block;
+  height:auto;
+  box-sizing: border-box;
+  background:#ffffff;
+  width:100%;
+}
+
+.column{
+  max-width: 1200px;
+  margin:0 auto;
+  padding:0 40px;
+}
+
+.column h2{
+  margin:0;
+}
+
+#logo{
+  padding-top:100px;
+  text-align:center;
+  display:block;
+  padding-bottom: 0px;
+}
+
+#active{
+  color:#6db9ff;
+}
+
+header nav{
+  margin:0 auto;
+  text-align:center;
+  padding-top:0px;
+  padding-bottom:40px;
+  margin:0 auto;
+}
+
+header nav a{
+  text-decoration: none;
+  color:#cacaca;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+header nav ul{
+  padding-left:100px;
+}
+
+header li{
+  display:inline-block;
+  margin-right:80px;
+}
+
+article{
+    text-align: center;
+    max-width:1000px;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 80px 110px 100px 110px;
+}
+
+article p{
+  text-align: justify;
+  margin:0;
+  width:100%;
+}
+
+.project h2{
+  padding-top: 100px;
+}
+
+.column p {
+  margin:0;
+  padding-bottom: 100px;
+}
+
+.project p{
+  width:100%;
+  padding:0 100px 100px 100px;
+  box-sizing: border-box;
+}
+
+.project figure{
+  max-width:1200px;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.project h3{
+  padding-top: 30px;
+}
+
+.column article{
+  padding:0 0 0 0;
+  margin:0 auto;
+}
+
+h2:before{
+  font-size:22px;
+  content: "\2022";
+  padding:0 10px;
+}
+
+h2:after{
+  font-size:22px;
+  content: "\2022";
+  padding:0 10px;
+}
+
+h2{
+  color:#45494d;
+  font-size: 36px;
+  padding:30px 0;
+}
+
+h3{
+  font-size: 24px;
+  color:#3e59b2;
+  margin-top:0;
+}
+
+p{
+  color:#45494d;
+  font-size: 20px;
+}
+
+footer{
+  background:#e7e7e7;
+}
+
+footer p {
+  margin:0 auto;
+  padding:90px 0 40px 0;
+  text-align: center;
+  max-width:500px;
+  color:#b1b1b1;
+}
+
+footer ul{
+  text-align: center;
+  margin:0;
+  padding:0 0 100px 0;
+  width:100%;
+}
+
+.social{
+  display:block;
+  height:46px;
+  width:46px;
+  text-indent: -8685px;
+  background: transparent url("icons_social-media.png") 0 0 no-repeat;
+}
+
+footer li{
+  display:inline-block;
+  padding:0 62px;
+}
+
+footer ul li a.facebook{
+  background-position: 0 -46px;
+}
+
+footer ul li a.email{
+  background-position: 0 -92px;
+}
+
+footer ul li a.instagram{
+  background-position: 0 -138px;
+}
+
+
+.team nav{
+  text-align: center;
+  padding:0 0 200px 0;
+}
+
+.team li{
+  display:inline-block;
+  padding: 0 30px;
+}
+
+.team dd{
+  padding-top:10px;
+  margin:0;
+}
+
+.team a{
+  text-decoration: none;
+  font-size: 24px;
+  color:#3e59b2;
+}
+
+@media (max-width: 1000px){
+
+article{
+    text-align: center;
+    width:auto;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.project figure img{
+  width:80%;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+}
+
+@media (max-width: 875px) {
+  .team li {
+    width: 48%;
+    padding: 0 0 30px 0;
+  }
+
+
+
+  header nav ul li{
+    margin: 0;
+  }
+
+  .project figure img{
+  width:80%;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+  main{
+    height:auto;
+  }
+
+  .team li img {
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:768px){
+
+  h1 a{
+    width: 223px;
+    height: 182px;
+    background-size: cover;
+    margin-top:0px;
+  }
+
+ 
+
+  main{width:100%;}
+
+  .project p{
+  width:100%;
+  padding:0 50px 100px 50px;
+  box-sizing: border-box;
+}
+
+  header div #logo{
+    padding:0px;
+  }
+
+  article{
+    width:100%;
+  }
+
+  article p{
+    font-size: 14px;
+  }
+
+  main h2{
+    font-size: 20px;
+  }
+
+  .team h2{
+    font-size:30px;
+  }
+
+  .team p{
+    font-size: 18px;
+  }
+
+  main h3{
+    font-size:16px;
+  }
+
+  #logo{
+    padding:0px;
+  }
+
+  header{
+    max-height:300px;
+  }
+
+  body {
+    padding-top: 45px;
+  }
+
+    article {
+      max-width: 600px;
+    padding: 0 20px 50px 20px;
+  }
+
+  footer {
+    padding: 35px 0;
+  }
+
+  footer li {
+    padding: 0 32px;
+  }
+
+  #projects article p {
+    padding: 0 30px;
+  }
+
+ header nav{
+    padding-top: 0;
+  }
+
+}
+
+@media(max-width: 481px){
+
+  header{
+    height:100px;
+  }
+
+  header nav{
+    text-align: right;
+  }
+
+  header nav a{
+  text-decoration: none;
+  color:#cacaca;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 2;
+}
+
+ header nav ul {
+    float:right;
+    margin: 0;
+    padding:0 15px 0 0 ;
+    width:50px;
+  }
+
+  header h1 a{
+    font-size:20px;
+    text-decoration: none;
+  }
+
+  body {
+    padding: 0;
+    font-size: 12px;
+  }
+    header img{
+      float:left;
+    width: 223px;
+    height: 182px;
+    background-size: cover;
+    margin-top:0px;
+  }
+
+  body > header {
+    padding: 15px 20px;
+  }
+
+  h1 {
+    float: left;
+    margin: 20px 0 0 0;
+  }
+
+  h1 a {
+    width: auto;
+    height: 40px;
+    padding: 10px 0 0 55px;
+    text-indent: 0;
+    text-decroation:none;
+    font-size: 22px;
+    color: #ffffff;
+    background-position: -20px 0;
+    background-size: 90px auto;
+  }
+
+  h2 { font-size: 26px; }
+
+  h2:before,
+  h2:after {
+    vertical-align: 0;
+  }
+
+  h3 { font-size: 22px; }
+
+  .team article{
+    padding:0 40px;
+  }
+
+  .team h2{
+    font-size: 26px;
+    padding:50px 0 5px 0;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+
+  .team div footer li {
+    padding: 20px 18px;
+  }
+
+  .team article p {
+    font-size: 14px;
+  }
+
+  .team p{
+    font-size:20px;
+    padding:0;
+  }
+
+  footer ul{
+    padding:30px 0 0 0 ;
+  }
+
+  footer p {
+    padding:0;
+    font-size: 16px;
+  }
+
+  .team ul{
+    padding:0;
+  }
+
+  .team dl li{
+    padding:20px 0 0 0;
+  }
+
+
+  .team dl #kevin{
+    width:50%;    
+  }
+
+  .team dl #kasper{
+    width:50%;
+  }
+}
+
+
+
