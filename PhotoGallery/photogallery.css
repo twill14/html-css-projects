@@ -1,0 +1,66 @@
+@import url("rest.css");
+
+body{
+  background: #151515;
+  margin:0px;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+main{
+  margin:0 auto;
+  background: #404142;
+  max-width:1000px;
+  height:auto;
+  padding:0 20px 20px 20px;
+}
+
+h1{
+  padding:50px 0 25px 0 ;
+  margin: 0;
+  text-align: center;
+  color:white;
+}
+
+#feature{
+  margin: 0 0 10px 0;
+  background: gray;
+  border:15px solid white;
+  width:100%;
+  box-sizing: border-box;
+  padding:0;
+}
+
+#feature img{
+  width:100%;
+  height:auto;
+}
+
+.section_one figcaption{
+  color: white;
+}
+
+
+ul{
+  padding:0;
+  font-size: 0px;
+  margin: 0 -15px;
+}
+
+ul li{
+  display: inline-block;
+  box-sizing: border-box;
+  padding:0 15px;
+  width:25%;
+  vertical-align: top;
+}
+
+
+ ul li img{
+  border: 2px solid white;
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
+  display: block;
+  margin-top:30px;
+}
+
