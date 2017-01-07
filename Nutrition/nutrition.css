@@ -1,0 +1,162 @@
+body{
+  font-family: Helvetica, arial, sans-serif;
+}
+
+main{
+  width:600px;
+  border:2px solid black;
+  height:auto;
+  margin:0 auto;
+}
+
+section{
+  margin:10px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 400;
+  margin:0;
+}
+
+dt{
+  font-size:30px;
+  font-weight: 600;
+  float:left;  
+}
+
+dd{
+  float:left;   
+  font-size:30px;
+  margin-left:10px;
+  padding-bottom: 5px;
+}
+
+.section.head{
+  border-bottom:solid black 25px;
+}
+
+.section.head h1{
+  margin:0;
+  width:100%;
+  font-weight: 600px;
+  font-size: 60px;
+}
+
+.section.head p:nth-of-type(2){
+  padding:0 0 5px 5px;
+}
+
+.section.servings h3{
+  margin:0;
+  font-size: 20px;
+  padding:0 0 5px 0;
+  font-weight: 600;
+  border-bottom: 1px black solid;
+}
+
+.section.servings dl{
+  border-bottom: solid black 10px;
+  overflow: hidden;
+}
+
+.section.servings dd:nth-of-type(2) {
+  float:right;
+  font-weight: 200; 
+}
+
+.section.servings dt:nth-of-type(2) {
+  float:right;
+  font-weight: 200; 
+}
+
+.section.dalies dl{
+  border-bottom: 2px solid black;
+  overflow: hidden;
+}
+
+#daily {
+  float:right;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+#titlerow dd:first-child{
+  float:left;
+}
+
+#titlerow dd:nth-child(3){
+  float:right;
+  font-weight: 600;
+}
+
+.section.dalies dl:nth-of-type(10){
+  padding-bottom: 5px;
+  border-bottom: solid black 25px;
+}
+
+#subrow{
+  font-weight: 200;
+  margin-left: 30px;
+}
+
+#subrow dt{
+  font-weight: 200;
+}
+
+#subrow dd:first-child{
+  float:left;
+}
+
+#subrow dd:nth-child(3){
+  float:right;
+  font-weight: 600;
+}
+
+#vitamins dt{
+  font-weight: 200;
+}
+
+#vitamins dd:first-of-type{
+  float:right;
+}
+
+.section.message p {
+  font-size: 22px;
+  font-weight: 200;
+  margin: 0 20px;
+  padding-bottom:5px;
+}
+
+table tbody tr:first-of-type{
+  border-bottom: 2px solid black;
+}
+
+table th:first-of-type{
+  padding-left:200px;
+}
+table th{
+  padding:0 20px;
+  font-size:22px;
+  font-weight: 200;
+}
+
+table td{
+  font-size:22px;
+  font-weight: 200;
+  padding-left:22px;
+}
+
+table tr td:first-of-type{
+  padding:0;
+}
+
+table tr:nth-of-type(3) td:first-of-type{
+  padding-left:30px;
+}
+
+table tr:last-of-type td:first-of-type{
+  padding-left:30px;
+}
+
