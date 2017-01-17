@@ -1,0 +1,81 @@
+@import url("rest.css");
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #20201F;
+    font-weight: 300;
+}
+
+header{
+    height:430px;
+    background: url("images/bg-init-blue.jpg") 0 0 no-repeat;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+header nav div:first-of-type {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    padding-top:30px;
+}
+
+header li{
+    display: inline-block;
+   box-sizing: border-box;
+   width:15%;
+}
+
+header li a{
+    display: inline-block;
+    width:150px;
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.social {
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social a {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    text-indent: -9999px;
+    z-index: 10;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.social a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 26px;
+    left: 24px;
+    background-image: url(/images/social.png);
+    background-size: auto 100%;
+}
+
+
+
+main{
+    height:500px;
+}
+
